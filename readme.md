@@ -44,7 +44,17 @@ There should be:
 
 ## Authentication and Session Management
 1. Use redis as your session store.
+    - [ ] When a user logs in a session is created on mongoDB
+    - [ ] The session is cached on Redis and first read there
+    - [ ] if a session (JWT) is still valid and not on Redis, we check the DB
 3. Authentication and Authorization for admin and user accounts should be done using `Bearer token` and `JWT`.
+```js
+{
+    "role": "ADMIN | USER",
+    "session": "uuid-uuid-uuid",
+    "user": "uuid-uuid-uuid"
+}
+```
 
 ## Tools/Stack
 
