@@ -19,7 +19,7 @@ There should be:
   - [ ] create fixtures 
   - [ ] edit fixture
   - [ ] Remove fixture
-  - [ ]View Fixture
+  - [ ] View Fixture
     - [ ] Pagination
     - [ ] Sorting
     - [ ] Searching
