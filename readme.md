@@ -64,9 +64,45 @@ There should be:
 - [ ] Docker
 - [ ] POSTMAN
 
-## Tests
+## Acceptance Test
+  - [ ] Admin can signup with correct credentials
+  - [ ] Admin can't signup with wrong credentials
+  - [ ] Admin can login with correct credentials
+  - [ ] Admin can login with wrong credentials
+  - [ ] Admin can add team
+  - [ ] Admin can't add team that already exist
+  - [ ] Admin can remove team
+  - [ ] Admin can remove teams
+  - [ ] Admin can edit Team
+  - [ ] Admin can view Teams with default pagination and sorting
+  - [ ] Admin can view teams with custom pagination
+  - [ ] Admin can view teams with custom sorting
+  - [ ] Admin can search for teams
+  - [ ] Admin can create fixtures
+  - [ ] Admin can't create fixtures for teams twice
+  - [ ] Admin can edit fixture
+  - [ ] Admin can edit fixture to clash with another based on venue and time
+  - [ ] Admin can remove fixture
+  - [ ] Admin can't remove fixture ongoing
+  - [ ] Admin can view fixture with default pagination and sorting
+  - [ ] Admin can view fixture with custom pagination
+  - [ ] Admin can view fixture with custom sorting
+  - [ ] Generate unique links for fixture
+  - [ ] User can signup with correct credentials
+  - [ ] User can't signup with wrong credentials
+  - [ ] User can login with correct credentials
+  - [ ] User can login with wrong credentials
+  - [ ] User can view Teams with default pagination and sorting
+  - [ ] User can view teams with custom pagination
+  - [ ] User can view teams with custom sorting
+  - [ ] User can view pending fixture with default pagination and sorting
+  - [ ] User can view pending fixture with custom pagination
+  - [ ] User can view pending fixture with custom sorting
+  - [ ] User can view completed fixture with default pagination and sorting
+  - [ ] User can view completed fixture with custom pagination
+  - [ ] User can view completed fixture with custom sorting
+  - [ ] robustly search fixtures/teams
 
-Unit tests are a must, submissions without tests will be ignored.
 
 ## Submission
 
