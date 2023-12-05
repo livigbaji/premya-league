@@ -1,0 +1,13 @@
+version: '3.9'
+
+services:
+  postgres:
+    image: postgres:15
+    ports:
+      - ${POSTGRES_PORT:-5431}:5432
+    volumes:
+      - ./postgres-data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_PASSWORD=nonewhatsoever
+      - POSTGRES_USER=ironman
+      - POSTGRES_DB=starkdb
